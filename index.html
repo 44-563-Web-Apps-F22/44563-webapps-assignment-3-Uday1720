@@ -95,5 +95,16 @@
                 <td>3 hours</td>
     
             </tr>
+            <hr>
+            <h3>Code Display</h3>
+            <blockquote>What I want to happen is:
+                Restrict user to access folder and files inside it (something like .htaccess deny from all)
+                Allow some URL to access files inside this restricted folder.
+                </blockquote>
+                <a href="url"> https://stackoverflow.com/questions/43938345/allow-access-to-deny-from-all-directory</a>
+                <pre>Order deny,allow
+                    Deny from All
+                    Allow from xxx.xxx.xxx.xxx
+                    Allow from xxx.xxx.xxx.xxy</pre>
     </body>
 </html>
